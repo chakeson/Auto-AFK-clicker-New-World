@@ -21,10 +21,10 @@ def main_anti_afk():
     while (start_stop==1):
         start_btn["state"] = "disabled"
         start_btn.config(cursor="watch") 
-        if (gw.getActiveWindow().title == "New World"): #Check if new world is open else wait 20s and check again
-            press_random_wasd()
-        else:
-            sleep(20)
+        #if (gw.getActiveWindow().title == "New World"): #Check if new world is open else wait 20s and check again
+        #    press_random_wasd()
+        #else:
+        sleep(20)
     start_btn["state"] = "normal"
     start_btn.config(cursor="arrow") #Change back to the normal mouse cursor when it's hovering over
 

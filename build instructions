@@ -1,1 +1,3 @@
-pyinstaller --onefile --hidden-import tkinter auto.py
+Use pyinstaller and run this in a folder with auto.py
+
+pyinstaller --onedir --hidden-import tkinter auto.py
